@@ -400,6 +400,10 @@ article .icon {
     justify-content: center;
     flex-direction: column;
     height: 100vh;
+    background-image: url('./assets/wallpaper-contact.jpg');
+    background-repeat: no-repeat;
+    background-size: 30%;
+    background-position: left -2rem;
 }
 
 .contact-info-upper-container {
