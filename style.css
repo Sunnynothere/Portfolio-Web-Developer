@@ -43,6 +43,19 @@ nav {
     font-size: 1.5rem;
 }
 
+.logo {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 17vh;
+}
+
+.logo-pic {
+    width: 10.5%;
+    height: auto;
+    position: absolute;
+}
+
 a {
     color: black;
     text-decoration: none;
@@ -136,6 +149,12 @@ a:hover {
     transform: none;
 }
 
+.logo-pic {
+    width: 80px;
+    height: auto;
+    margin-right: 10px;
+}
+
 /* SECTIONS */
 
 section {
@@ -167,7 +186,7 @@ section {
 }
 
 .profile-pic {
-    border-radius: 500px;
+    border-radius: 35% 65% 59% 41% / 73% 33% 67% 27%;
 }
 
 .section__text {
@@ -277,7 +296,9 @@ section {
     display: flex;
 }
 
-/* pic profile, must add here */
+.about-pic {
+    border-radius: 2rem;
+}
 
 .arrow {
     position: absolute;
