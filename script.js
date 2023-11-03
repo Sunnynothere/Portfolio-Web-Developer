@@ -5,3 +5,9 @@ function toggleMenu() {
     menu.classList.toggle('open');
     icon.classList.toggle('open');
 }
+
+const image = document.querySelector(".rocket-href");
+
+image.addEventListener("click", function() {
+  window.scrollTo(0, 0);
+});

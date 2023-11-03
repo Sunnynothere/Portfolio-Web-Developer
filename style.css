@@ -447,10 +447,22 @@ article .icon {
 /* FOOTER */
 
 footer {
-    height: 26vh;
+    height: 18vh;
     margin: 0 1rem;
 }
 
 footer p {
     text-align: center;
+}
+
+.rocket-href .rocket{
+    margin: auto;
+    display: flex;
+    padding-right: 60px;
+    padding-bottom: 40px;
+    cursor: pointer;
+}
+
+.rocket {
+    width: 18%;
 }
