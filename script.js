@@ -6,7 +6,7 @@ function toggleMenu() {
     icon.classList.toggle('open');
 }
 
-const image = document.querySelector(".rocket-href");
+const image = document.querySelector(".rocket");
 
 image.addEventListener("click", function() {
   window.scrollTo(0, 0);
