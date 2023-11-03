@@ -1,6 +1,13 @@
 /* GENERAL */
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
 
+/* Colors */
+:root {
+    --main-color: #1c3b0e;
+    --main-hover: #5f914a;
+    --main-a-color: white;
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -64,9 +71,9 @@ a {
 
 a:hover {
     color: grey;
-    text-decoration: underline;
+    /* text-decoration: underline;
     text-underline-offset: 1rem;
-    text-decoration-color: rgb(181, 181, 181);
+    text-decoration-color: rgb(181, 181, 181); */
 }
 
 /* HAMBURGER */
@@ -283,7 +290,6 @@ section {
 .about-containers {
     gap: 2rem;
     margin-bottom: 2rem;
-    margin-top: 2rem;
 }
 
 .about-details-container {
@@ -344,6 +350,7 @@ section {
     display: flex;
     justify-content: center;
     flex-direction: column;
+    padding-top: 2rem;
 }
 
 .article-container {
