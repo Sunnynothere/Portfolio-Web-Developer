@@ -52,6 +52,13 @@
     }
 }
 
+@media screen and (max-width: 900px) {
+    .rocket {
+        width: 26%;
+        height: auto;
+    }
+}
+
 @media screen and (max-width: 600px) {
     #contact,
     footer {
@@ -117,5 +124,14 @@
 
     .text-container {
         text-align: center;
+    }
+
+    .rocket-div {
+        padding-top: 40px;
+    }
+
+    .rocket {
+        width: 32%;
+        height: auto;
     }
 }
